@@ -47,15 +47,8 @@ textarea{
     background-color: white;
     font-size: 30px;
     color: white;
-    /* max-width: 20%; */
     overflow-y: auto;  
 }
-/* #result-el{
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    line-break:auto;
-    word-break: break-all;
-} */
 
 .size{
     width: 100%;
@@ -73,10 +66,4 @@ textarea{
 .size:hover{
     background-color: rgb(55, 50, 50);
     cursor: pointer;
-}
-
-img{
-    background: orangered;
-    height: 30px;
-    background-blend-mode: inherit;
 }

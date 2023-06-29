@@ -4,26 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+
+    <!-- css link  -->
     <link rel="stylesheet" href="calc.css">
+    
+    <!-- font awesome cdn.js link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
     <section class="calc-container">
         <div class="itemone" style="word-break: break-all;word-wrap: break-word;">
-            <textarea id="result-el" style="resize: none;"></textarea>
+            <textarea id="result-el" style="resize: none;" readonly></textarea>
         </div>
 
         <div class="itemtwo">
             <button class="size orange" onclick="reset()">AC</button>
     
             <button class="size orange" onclick="backspace()">
-                <img src="backspace.svg" alt="">
+                <i class="fa-solid fa-delete-left" style="color: #f45000;"></i>
             </button>
     
             <button class="size orange" onclick="clickedPercent()">
                 <p id="percent">%</p>
             </button>
             <button class="size orange" onclick="clickedDivide()">
-                <img src="divide.svg" alt="">
+                <i class="fa-solid fa-divide" style="color: #f45000;"></i>
                 <p id="divide" hidden>/</p>
             </button>
 
@@ -87,8 +93,10 @@
 
         </div>
     </section>
+    
 
-
+    <!-- js link  -->
     <script src="calc.js"></script>
+    
 </body>
 </html>

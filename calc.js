@@ -3,7 +3,7 @@ let resultEl = document.getElementById("result-el")
 
 resultStorage = []
 
-
+// DOM AND FUNCTION FOR 7
 let seven = document.getElementById("seven")
 function clickedSeven(){
     console.log("you clicked seven")
@@ -12,7 +12,7 @@ function clickedSeven(){
     console.log(resultStorage)
 }
 
-
+// DOM AND FUNCTION FOR 8
 let eight = document.getElementById("eight")
 function clickedEight(){
     console.log("you clicked eight")
@@ -21,7 +21,7 @@ function clickedEight(){
     console.log(resultStorage)
 }
 
-
+// DOM AND FUNCTION FOR DELETE LEFT BUTTON
 function backspace(){
     console.log("you clicked backspace")
     resultStorage.pop(resultEl.value)
@@ -29,7 +29,7 @@ function backspace(){
     console.log(resultStorage)
     }
 
-
+// DOM AND FUNCTION FOR AC BUTTON
 function reset(){
     for(i=resultStorage.length-1; i >=0; i--){
         resultStorage.pop(resultEl.value)
@@ -37,7 +37,7 @@ function reset(){
     }
 }
 
-
+// DOM AND FUNCTION FOR 9
 let nine = document.getElementById("nine")
 function clickedNine(){
     console.log("you clicked nine")
@@ -46,7 +46,7 @@ function clickedNine(){
     console.log(resultStorage)
 }
 
-
+// DOM AND FUNCTION FOR 4
 let four = document.getElementById("four")
 function clickedFour(){
     console.log("you clicked four")
@@ -55,7 +55,7 @@ function clickedFour(){
     console.log(resultStorage)
 }
 
-
+// DOM AND FUNCTION FOR 5
 let five = document.getElementById("five")
 function clickedFive(){
     console.log("you clicked five")
@@ -64,7 +64,7 @@ function clickedFive(){
     console.log(resultStorage)
 }
 
-
+// DOM AND FUNCTION FOR 6
 let six = document.getElementById("six")
 function clickedSix(){
     console.log("you clicked six")
@@ -73,7 +73,7 @@ function clickedSix(){
     console.log(resultStorage)
 }
 
-
+// DOM AND FUNCTION FOR 1
 let one = document.getElementById("one")
 function clickedOne(){
     console.log("you clicked one")
@@ -82,7 +82,7 @@ function clickedOne(){
     console.log(resultStorage)
 }
 
-
+// DOM AND FUNCTION FOR 1
 let two = document.getElementById("two")
 function clickedTwo(){
     console.log("you clicked two")
@@ -91,7 +91,7 @@ function clickedTwo(){
     console.log(resultStorage)
 }
 
-
+// DOM AND FUNCTION FOR 3
 let three = document.getElementById("three")
 function clickedThree(){
     console.log("you have clicked three")
@@ -100,7 +100,7 @@ function clickedThree(){
     console.log(resultStorage)
 }
 
-
+// DOM AND FUNCTION FOR 0
 let zero = document.getElementById("zero")
 function clickedZero(){
     console.log("you clicked zero")
@@ -109,7 +109,7 @@ function clickedZero(){
     console.log(resultStorage)
 }
 
-
+// DOM AND FUNCTION FOR DOT "."" BUTTON
 let point = document.getElementById("point")
 function clickedPoint(){
     console.log("you clicked point")
@@ -118,7 +118,7 @@ function clickedPoint(){
     console.log(resultStorage)
 }
 
-
+// DOM AND FUNCTION FOR PERCENT "%" BUTTON
 let percentage = document.getElementById("percent")
 function clickedPercent(){
     console.log("you clicked percent")
@@ -127,6 +127,7 @@ function clickedPercent(){
     console.log(resultStorage)
 }
 
+// DOM AND FUNCTION FOR DIVISION BUTTON
 let divide = document.getElementById("divide")
 function clickedDivide(){
     console.log("you clicked divide")
@@ -135,6 +136,7 @@ function clickedDivide(){
     console.log(resultStorage)
 }
 
+// DOM AND FUNCTION FOR INDICES BUTTON
 let indices = document.getElementById("indices")
 function clickedIndices(){
     console.log("you clicked indices")
@@ -143,7 +145,7 @@ function clickedIndices(){
     console.log(resultStorage)
 }
 
-
+// DOM AND FUNCTION FOR ADD BUTTON
 let add = document.getElementById("add")
 function clickedAdd(){
     console.log("you clicked add")
@@ -152,6 +154,7 @@ function clickedAdd(){
     console.log(resultStorage)
 }
 
+// DOM AND FUNCTION FOR SUBTRACT BUTTON
 let subtract = document.getElementById("subtract")
 function clickedSubtract(){
     console.log("you clicked subtract")
@@ -160,6 +163,7 @@ function clickedSubtract(){
     console.log(resultStorage)
 }
 
+// DOM AND FUNCTION FOR MULTIPLY BUTTON
 let multiply = document.getElementById("multiply")
 let symbol = document.getElementById("symbol")
 function clickedMultiply(){
@@ -169,7 +173,7 @@ function clickedMultiply(){
     console.log(resultStorage)
 }
 
-
+// DOM AND FUNCTION FOR EQUALITY BUTTON
 let equal = document.getElementById("equal")
 function clickedEqual(){
     console.log("you clicked equal")
