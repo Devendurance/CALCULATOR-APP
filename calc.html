@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <section class="calc-container">
+        <div class="itemone" style="word-break: break-all;word-wrap: break-word;">
+            <textarea id="result-el" style="resize: none;"></textarea>
+        </div>
+
+        <div class="itemtwo">
+            <button class="size orange" onclick="reset()">AC</button>
+    
+            <button class="size orange" onclick="backspace()">
+                <img src="backspace.svg" alt="">
+            </button>
+    
+            <button class="size orange" onclick="clickedPercent()">
+                <p id="percent">%</p>
+            </button>
+            <button class="size orange" onclick="clickedDivide()">
+                <img src="divide.svg" alt="">
+                <p id="divide" hidden>/</p>
+            </button>
+
+            <button class="size" onclick="clickedSeven()">
+                <p id="seven">7</p>
+            </button>
+            <button class="size" onclick="clickedEight()">
+                <p id="eight">8</p>
+            </button>
+            <button class="size" onclick="clickedNine()">
+                <p id="nine">9</p>
+            </button>
+
+            <button class="size orange" onclick="clickedMultiply()">
+                <p id="symbol">x</p>
+                <p id="multiply" hidden>*</p>
+            </button>
+
+            <button class="size" onclick="clickedFour()">
+                <p id="four">4</p>
+            </button>
+            <button class="size"onclick="clickedFive()">
+                <p id="five">5</p>
+            </button>
+            <button class="size" onclick="clickedSix()">
+                <p id="six">6</p>
+            </button>
+
+            <button class="size orange" onclick="clickedSubtract()">
+                <p id="subtract">-</p>
+            </button>
+
+            <button class="size" onclick="clickedOne()">
+                <p id="one">1</p>
+            </button>
+            <button class="size" onclick="clickedTwo()">
+                <p id="two">2</p>
+            </button>
+            <button class="size" onclick="clickedThree()">
+                <p id="three">3</p>
+            </button>
+
+            <button class="size orange" onclick="clickedAdd()">
+                <p id="add">+</p>
+            </button>
+            <button class="size orange" onclick="clickedIndices()">
+                <p id="indices">^</p>
+                <p id="power" hidden>**</p>
+            </button>
+
+            <button class="size" onclick="clickedZero()">
+                <p id="zero">0</p>
+            </button>
+
+            <button class="size orange" onclick="clickedPoint()">
+                <p id="point">.</p>
+            </button>
+            <button class="size orange" onclick="clickedEqual()">
+                <p id="equal">=</p>
+            </button>
+
+        </div>
+    </section>
+
+
+    <script src="calc.js"></script>
+</body>
+</html>

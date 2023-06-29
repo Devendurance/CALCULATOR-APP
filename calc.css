@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-height: 100vh;
+}
+
+body{
+    background-color: black;
+}
+
+.calc-container {
+    max-height: 32rem;
+    background-color: black;
+    width:30%;
+    margin: 25px auto;
+    padding: 3rem;
+    border: 2px solid orangered;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    
+}
+.itemone{
+    background-color: red;
+    height: 80px;
+    width: 100%;
+    margin:0 auto;
+}
+.itemtwo{
+    background-color: black;
+    width: 100%;
+    height: 25rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2px;
+}
+.calc-container #result-el {
+    background-color: black;
+    height: 80px;
+    width: inherit;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea{
+    background-color: white;
+    font-size: 30px;
+    color: white;
+    /* max-width: 20%; */
+    overflow-y: auto;  
+}
+/* #result-el{
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-break:auto;
+    word-break: break-all;
+} */
+
+.size{
+    width: 100%;
+    background-color: inherit;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid gray;
+    outline-color: none;
+}
+.orange{
+    color: orangered;
+}
+
+.size:hover{
+    background-color: rgb(55, 50, 50);
+    cursor: pointer;
+}
+
+img{
+    background: orangered;
+    height: 30px;
+    background-blend-mode: inherit;
+}
