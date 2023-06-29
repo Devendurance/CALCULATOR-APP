@@ -2,7 +2,6 @@ let resultEl = document.getElementById("result-el")
 
 
 resultStorage = []
-afterOperation = ""
 
 
 let seven = document.getElementById("seven")
